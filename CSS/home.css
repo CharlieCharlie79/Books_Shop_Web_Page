@@ -1,12 +1,13 @@
+*
+{
+    box-sizing: border-box;
+}
+
 body
 {
  background-color: #F0FFFF;
 }
 
-*
-{
-    box-sizing: border-box;
-}
 
 .Introduction
 {
@@ -92,8 +93,10 @@ ul
 /* Position the image container(needed to position the left and right arrows)*/
 .BestSellersContainer
 {
-    position: relative;
+    position: relative;  
 }
+
+
 
 /* Hide the images by default */
 .mySlides
