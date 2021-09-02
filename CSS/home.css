@@ -90,13 +90,26 @@ ul
 }
 
 
+.Bestsellers
+{
+   text-align: center;
+}
+
 /* Position the image container(needed to position the left and right arrows)*/
 .BestSellersContainer
 {
     position: relative;  
+    left:50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 240px;
 }
 
-
+.BestSellersContainer img
+{
+    width: 100%;
+    height: auto;
+}
 
 /* Hide the images by default */
 .mySlides
@@ -175,6 +188,8 @@ ul
     float: left;
     width:16.66%;
 }
+
+
 
 /* Add a transparency effect for thumnbail images */
 .demo
